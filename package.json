@@ -2,7 +2,10 @@
   "name": "vortexwest-playwright-qatask",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "run": "npx playwright test --headed",
+    "test": "npx playwright test --reporter=dot"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
