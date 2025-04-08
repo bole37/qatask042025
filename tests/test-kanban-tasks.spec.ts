@@ -18,8 +18,7 @@ test('Create issue', async ({ page }) => {
   await page.locator('j-user').filter({ hasText: 'Iron Man' }).locator('div').first().click();
   await page.locator('nz-select-top-control').filter({ hasText: '[object Text]' }).click();
   await page.getByTitle('Spider Man').locator('div').nth(1).click();
-  await page.getByRole('button', { name: 'Create Issue' }).click();
-
+  await page.getByRole('button', { name: 'Create Issue' }).click()
   //Check if issue is created
   await expect(page.getByText('test')).toBeVisible();
  
