@@ -1,4 +1,4 @@
-This is a Public repository for the QA Task, for VortexWest.
+This is a Public repository for the QA Task.
 
 Testing is done on the demo application of Jira Clone: https://jira.trungk18.com/project/board
 
